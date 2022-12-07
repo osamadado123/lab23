@@ -1,0 +1,10 @@
+{% extends 'heroes/base.html' %}
+
+{% block content %}
+    <h2>Add a hero </h2>
+    <form method='post'>
+        {% csrf_token %}
+        {{form.as_p}}
+        <input type='submit' value='Add'/>
+    </form>
+{% endblock content %}
