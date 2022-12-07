@@ -1,0 +1,21 @@
+{% extends 'heroes/base.html' %}
+
+{% block content %}
+
+<h2>heroes List: </h2>
+<div>
+    <a href="{% url 'heroes-create'%}">Add a new hero to your List</a>
+    </div>
+
+{% for heroes in object_list %}
+<div style="background-color: #7f2f03; padding: .5rem; border-radius: 7px; width: 300px; margin: 2rem; text-align: center; height: 250px;" >
+        <h2>{{heroes.name}}</h2>
+        <h3><img src="{{heroes.img_url}}" alt="{{heroes.name}}" width="200px"/></h3>
+        <a href="{% url 'heroes-detail' heroes.id%}">Details</a>
+        <a href="{% url 'heroes-update' heroes.id%}" id="update_list">Update</a>
+        <a href="{% url 'heroes-delete' heroes.id%}" id="delete_list">Delete</a>
+      </div>
+    
+{% endfor%}
+<a href="create-account/">don't have an account ? create one here</a>
+{% endblock content %}

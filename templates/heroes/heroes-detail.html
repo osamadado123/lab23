@@ -1,0 +1,16 @@
+{% extends 'heroes/base.html' %}
+
+{% block content %}
+
+<div>
+ 
+<div>
+    <div>
+    <h2>Hero Name : {{heroes.name}}</h2>
+    <h3>ID : {{heroes.id}}</h3>
+    <h4>Attack type : {{heroes.attack_type}}</h4>
+    <h4> Roles: {{heroes.roles}}</h4>
+    <h4>the creator : {{heroes.creator}}</h4>
+    </div>
+</div>
+{% endblock content %}
