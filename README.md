@@ -2,6 +2,7 @@
 # dota 2 heores 
 # author 
 - osama maher
+# i got my img urls for dota 2 hereos from this [website](https://auct.eu/d2hi/)
 # pull request 
 [my pull request](https://github.com/osamadado123/lab23/pull/1)
 
