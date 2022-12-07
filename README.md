@@ -1,3 +1,10 @@
+# lab 23
+# dota 2 heores 
+# author 
+- osama maher
+# pull request 
+[my pull request](https://github.com/osamadado123/lab23/pull/1)
+
 > A batteries-included Django starter project. To learn more try the books [Django for Beginners](https://djangoforbeginners.com), [Django for APIs](https://djangoforapis.com), and [Django for Professionals](https://djangoforprofessionals.com).
 
 ## 🚀 Features
